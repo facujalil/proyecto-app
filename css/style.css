@@ -16,14 +16,6 @@ body {
     height: 100vh;
 }
 
-.todo {
-    height: 90%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-
 .nav-conteiner {
     display: flex;
     justify-content: space-between;
@@ -31,7 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Plus Jakarta Sans';
-    padding: 3rem;
+    padding: 0 3rem;
     border: 2.5px solid black;
     box-shadow: 8px 8px 0 black;
     border-radius: 5px;
@@ -63,6 +55,10 @@ a {
     margin-top: 0;
 }
 
+.nav a:last-child {
+    margin-bottom: 2.5rem;
+}
+
 a,
 button {
     cursor: pointer;
@@ -80,12 +76,12 @@ button {
     width: 11rem;
     border: 2px solid black;
     box-shadow: 2px 2px 0 black;
-    margin: 1rem 0;
+    margin: 2.5rem 0;
 }
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
     height: 100%;
 }
