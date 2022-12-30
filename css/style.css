@@ -56,7 +56,6 @@ a {
     width: 9.2rem;
     font-weight: 600;
     margin-top: 3rem;
-    text-align: center;
 }
 
 .nav a:first-child {
@@ -91,7 +90,6 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: red;
 }
 
 .content-header {
