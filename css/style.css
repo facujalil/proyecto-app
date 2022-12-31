@@ -14,22 +14,22 @@ body {
     background-position: center center;
     font-family: 'Poppins';
     height: 100vh;
-    max-width: 1800px;
+    overflow-x: hidden;
 }
 
 .nav-conteiner {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     font-family: 'Plus Jakarta Sans';
-    padding: 0 2rem;
+    padding: 1.5rem 2rem;
     border: 2.5px solid black;
     box-shadow: 8px 8px 0 black;
     border-radius: 5px;
     background-color: white;
-    max-height: 95%;
-    min-height: 90%;
+    max-height: 90%;
+    min-height: 85%;
     margin-right: 5rem;
 }
 
@@ -55,18 +55,14 @@ a {
 
 .nav a {
     font-size: 1em;
-    height: 2.2rem;
-    width: 9.2rem;
+    height: 2.2em;
+    width: 9.2em;
     font-weight: 600;
-    margin-top: 3rem;
+    margin-top: 3em;
 }
 
 .nav a:first-child {
     margin-top: 0;
-}
-
-.nav a:last-child {
-    margin-bottom: 2.5rem;
 }
 
 a,
@@ -86,15 +82,15 @@ button {
     width: 11rem;
     border: 2px solid black;
     box-shadow: 2px 2px 0 black;
-    margin: 2.5rem 0;
+    margin: 0 0 3.5rem 0;
 }
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
-    min-height: 85%;
-    max-height: 90%;
+    height: 100%;
+    width: 65%;
 }
 
 .content-header {
@@ -135,7 +131,8 @@ h1 {
 .categories {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    height: 80%;
 }
 
 .categories-header {
@@ -169,18 +166,22 @@ h1 {
     box-shadow: 8px 8px 0 black;
     border-radius: 5px;
     background-color: white;
+    margin: 2rem;
+    margin-top: 0;
+    height: 90%;
+    width: 100%;
 }
 
 .categorie-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     overflow-y: scroll;
-    height: 19.5rem;
-    padding: 0 8rem;
+    height: 70%;
+    padding: 0 3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
-
-/*
 
 .categorie-buttons::-webkit-scrollbar {
     width: 8px;
@@ -188,33 +189,20 @@ h1 {
 
 .categorie-buttons::-webkit-scrollbar-thumb {
     background-color: #62B5FA;
-    border-radius: 24px;
 }
-
-.categorie-buttons::-webkit-scrollbar-track {
-    background-color: white;
-}
-*/
 
 .categorie-buttons a {
-    font-size: 1rem;
-    margin: 1.5rem;
+    font-size: 150%;
+    margin: 2rem;
     background-color: #62B5FA;
-    width: 10rem;
-    height: 3rem;
+    width: 80%;
+    height: 70%;
     box-shadow: 5px 5px 0 0 white, 5px 5px 0 2px black;
     color: white;
 }
 
 .upgrade {
-    margin-top: 1.5rem;
     background-color: white;
     height: 2.4rem;
     width: 8.4rem;
-}
-
-@media screen and (max-width: 1050px) {
-    .nav-conteiner {
-        display: none;
-    }
 }
