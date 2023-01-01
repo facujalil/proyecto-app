@@ -58,7 +58,7 @@ a {
     height: 3rem;
     width: 100%;
     font-weight: 600;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .nav a:first-child {
@@ -82,7 +82,7 @@ button {
     width: 11rem;
     border: 0.125rem solid black;
     box-shadow: 0.125rem 0.125rem 0 black;
-    margin: 0 0 3.5rem 0;
+    margin: 0 0 5rem 0;
 }
 
 .content {
@@ -143,8 +143,9 @@ h1 {
     background-color: white;
     margin-top: 0;
     height: 80%;
-    width: 100%;
-    padding: 2.5px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0.125rem;
 }
 
 .categories-header {
@@ -185,9 +186,10 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     overflow-y: scroll;
+    overflow-x: hidden;
     padding: 0 3rem;
     height: 100%;
-    width: 90%;
+    width: 85%;
 }
 
 .categorie-buttons::-webkit-scrollbar {
