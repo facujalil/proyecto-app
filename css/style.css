@@ -24,8 +24,7 @@ body {
     flex-direction: column;
     font-family: 'Plus Jakarta Sans';
     padding: 1.4rem 1.8rem;
-    border: 2.4px solid black;
-    box-shadow: 8px 8px 0 black;
+    box-shadow: inset 0px 0px 0px 2px black, 8px 8px 0 black;
     border-radius: 5px;
     background-color: white;
     max-height: 90%;
@@ -45,7 +44,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2.5px solid black;
+    border: 2px solid black;
     box-shadow: 4px 4px 0 black;
     border-radius: 5px;
     text-align: center;
@@ -137,22 +136,20 @@ h1 {
 }
 
 .categories {
-    border: 2.4px solid black;
-    box-shadow: 8px 8px 0 black;
+    box-shadow: inset 0px 0px 0px 2px black, 8px 8px 0 black;
     border-radius: 5px;
     background-color: white;
     margin-top: 0;
     height: 80%;
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 2px;
 }
 
 .categories-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
+    box-shadow: inset 0px -2px 0 black;
     height: 20%;
     padding: 0 2rem;
 }
