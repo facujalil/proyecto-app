@@ -27,17 +27,17 @@ body {
     box-shadow: 0px 0px 0px 2px black, 8px 8px 0 black;
     border-radius: 5px;
     background-color: white;
-    max-height: 90%;
-    min-height: 85%;
+    height: 90%;
     margin-right: 5rem;
 }
 
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     flex-direction: column;
+    height: 65%;
 }
 
 a {
@@ -57,11 +57,6 @@ a {
     font-size: 1.15em;
     height: 3rem;
     width: 100%;
-    margin-top: 3rem;
-}
-
-.nav a:first-child {
-    margin-top: 0;
 }
 
 a,
@@ -81,7 +76,6 @@ button {
     width: 11rem;
     border: 2px solid black;
     box-shadow: 2px 2px 0 black;
-    margin: 0 0 5rem 0;
 }
 
 .content {
