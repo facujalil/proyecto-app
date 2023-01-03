@@ -106,7 +106,7 @@ button {
 }
 
 h1 {
-    font-size: 4.5em;
+    font-size: 4em;
     text-transform: uppercase;
     -webkit-text-stroke: 2px black;
     color: white;
@@ -141,7 +141,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-        box-shadow: 0 2px 0 black;
+    box-shadow: 0 2px 0 black;
     height: calc(20% - 2px);
     margin-bottom: 2px;
 }
@@ -184,7 +184,7 @@ h1 {
 /*Scroll*/
 
 .flashcards::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
 }
 
 .flashcards::-webkit-scrollbar-thumb {
