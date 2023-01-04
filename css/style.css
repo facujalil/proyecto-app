@@ -23,7 +23,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding: 1.4rem 0;
+    padding: 1.4rem 0.5rem;
     box-shadow: 0 0 0 2px black, 10px 10px 0 black;
     border-radius: 5px;
     background-color: white;
@@ -55,7 +55,7 @@ a {
 .nav a {
     font-size: 1.15em;
     height: 3rem;
-    width: 80%;
+    width: 75%;
 }
 
 a,
